@@ -47,8 +47,11 @@ public class JFLogin extends javax.swing.JFrame {
 
         jLabel2.setText("Senha:");
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 250, 50, -1));
+
+        jTextFieldUsuario.setText("HIGOR");
         getContentPane().add(jTextFieldUsuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 220, 270, -1));
 
+        jPasswordFieldSenha.setText("121255");
         jPasswordFieldSenha.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jPasswordFieldSenhaActionPerformed(evt);
