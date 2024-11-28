@@ -71,13 +71,14 @@ public class Aluno {
         this.cidade = cidade;
     }
 
-    public void setTelefone(String string) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public String getTelefone() {
+        return telefone;
     }
 
-    public String getTelefone() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
     }
-    
+
+
     
 }
